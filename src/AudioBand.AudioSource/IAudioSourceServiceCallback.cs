@@ -10,7 +10,7 @@ namespace AudioBand.AudioSource
 {
     // Client side
     [ServiceContract]
-    public interface IAudioSourceCallback
+    public interface IAudioSourceServiceCallback
     {
         [OperationContract(IsOneWay = true)]
         void OnConnectionEstablished();
