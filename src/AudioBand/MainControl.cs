@@ -246,7 +246,7 @@ namespace AudioBand
             _settingsManager.AudioSource = null;
         }
 
-        private void AudioSourceOnTrackProgressChanged(object o, double progress)
+        private void AudioSourceOnTrackProgressChanged(object o, TimeSpan progress)
         {
             //BeginInvoke(new Action(() => { _audioSourceStatus.SongProgress = progress;}));
         }

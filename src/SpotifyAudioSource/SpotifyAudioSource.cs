@@ -14,7 +14,7 @@ namespace SpotifyAudioSource
         public event EventHandler<TrackInfoChangedEventArgs> TrackInfoChanged;
         public event EventHandler TrackPlaying;
         public event EventHandler TrackPaused;
-        public event EventHandler<double> TrackProgressChanged;
+        public event EventHandler<TimeSpan> TrackProgressChanged;
 
         private Timer _checkSpotifyTimer;
         private IAudioSourceLogger _logger;
@@ -125,7 +125,7 @@ namespace SpotifyAudioSource
         {
             TrackInfoChanged?.Invoke(this, new TrackInfoChangedEventArgs());
             TrackPaused?.Invoke(this, EventArgs.Empty);
-            TrackProgressChanged?.Invoke(this, 0);
+            TrackProgressChanged?.Invoke(this, new TimeSpan());
 
             _currentIsPlaying = false;
             _currentArtist = null;
