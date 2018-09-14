@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.ServiceModel;
-using System.Text;
-using System.Threading.Tasks;
+using AudioBand.AudioSource;
 
-namespace AudioBand.AudioSource
+namespace AudioBand.AudioSourceService
 {
     // Server side
-    [ServiceContract(CallbackContract = typeof(IAudioSourceCallback))]
+    [ServiceContract(CallbackContract = typeof(IAudioSourceServiceCallback))]
     public interface IAudioSourceService
     {
         [OperationContract(IsOneWay = true)]

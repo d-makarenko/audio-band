@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyAudioSource", "Spoti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioBand.Test", "AudioBand.Test\AudioBand.Test.csproj", "{E5E9CB59-C8CF-4042-9C13-F216153334B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioBand.AudioSourceHost", "AudioBand.AudioSourceHost\AudioBand.AudioSourceHost.csproj", "{1613849B-90F9-4287-B945-4A0EE1BB17B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioBand.AudioSourceHost", "AudioBand.AudioSourceHost\AudioBand.AudioSourceHost.csproj", "{31C66EDE-EAF1-4838-B800-B37DC3C1442F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioBand.AudioSourceService", "AudioBand.AudioSourceService\AudioBand.AudioSourceService.csproj", "{B0C02E5C-0ABA-434B-99F6-387773C6EAC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +37,14 @@ Global
 		{E5E9CB59-C8CF-4042-9C13-F216153334B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5E9CB59-C8CF-4042-9C13-F216153334B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5E9CB59-C8CF-4042-9C13-F216153334B6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1613849B-90F9-4287-B945-4A0EE1BB17B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1613849B-90F9-4287-B945-4A0EE1BB17B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1613849B-90F9-4287-B945-4A0EE1BB17B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1613849B-90F9-4287-B945-4A0EE1BB17B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31C66EDE-EAF1-4838-B800-B37DC3C1442F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C66EDE-EAF1-4838-B800-B37DC3C1442F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C66EDE-EAF1-4838-B800-B37DC3C1442F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C66EDE-EAF1-4838-B800-B37DC3C1442F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C02E5C-0ABA-434B-99F6-387773C6EAC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C02E5C-0ABA-434B-99F6-387773C6EAC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C02E5C-0ABA-434B-99F6-387773C6EAC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C02E5C-0ABA-434B-99F6-387773C6EAC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

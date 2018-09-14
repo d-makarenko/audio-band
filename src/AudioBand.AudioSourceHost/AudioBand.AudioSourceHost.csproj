@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1613849B-90F9-4287-B945-4A0EE1BB17B2}</ProjectGuid>
+    <ProjectGuid>{31C66EDE-EAF1-4838-B800-B37DC3C1442F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>AudioBand.AudioSourceHost</RootNamespace>
     <AssemblyName>AudioBand.AudioSourceHost</AssemblyName>
